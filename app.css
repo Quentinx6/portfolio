@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Orbitron;
+  src: url("./font/Orbitron-Regular.ttf");
+}
+@font-face {
+  font-family: Orbitron-Bold;
+  src: url("./font/Orbitron-Bold.ttf");
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Orbitron;
+  font-size: 16px;
+}
+
+.mainCorps {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mainCorps .sectionLeft {
+  width: 10%;
+  height: 100%;
+  background-color: #1A202B;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainCorps .sectionLeft p {
+  transform: rotate(90deg);
+  margin: 70px 0;
+  text-align: center;
+  color: white;
+}
+.mainCorps .sectionLeft p:last-child {
+  font-size: 10px;
+  color: #4F5765;
+  text-align: start;
+}
+.mainCorps .sectionCenter {
+  width: 80%;
+  height: 100%;
+  background-color: #273040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainCorps .sectionCenter .cercleFirstBordure {
+  border: 20px solid #4F5765;
+  border-radius: 100%;
+  height: 90%;
+  margin: 30px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  box-shadow: 0px 0px 18px 19px #1A202B;
+}
+.mainCorps .sectionCenter .cercleFirstBordure .cercleRouge {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #CF5544;
+  border-radius: 100%;
+}
+.mainCorps .sectionCenter .cercleFirstBordure .cercleRouge .texteDev {
+  color: white;
+  font-family: Orbitron-Bold;
+  font-size: 45px;
+  position: absolute;
+}
+.mainCorps .sectionCenter .titleContact {
+  background-image: linear-gradient(45deg, #CF5544 0%, #3E10C0 100%);
+  background-clip: text;
+  color: transparent;
+}
+.mainCorps .sectionRight {
+  width: 10%;
+  height: 100%;
+  background-color: #1A202B;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainCorps .sectionRight p {
+  transform: rotate(-90deg);
+  color: white;
+}
+.mainCorps .sectionRight .contactLink {
+  text-decoration: none;
+}
+.mainCorps .sectionRight .contactLink:hover p {
+  color: darkgoldenrod;
+}
+.mainCorps .sectionRight .menuHamburger {
+  width: 60px;
+  height: 60px;
+}
+.mainCorps .sectionRight .logoContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainCorps .sectionRight .logoContact img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=app.css.map */
