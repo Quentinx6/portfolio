@@ -25,11 +25,21 @@ html, body{
         flex-direction: column;
         justify-content: space-between;
         align-items: center; 
+        .proute{
+            width: 210px;
+        }
         p{
             transform: rotate(90deg);
             margin: 70px 0;
             text-align: center;
             color: white;
+            .parcours{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: darkgoldenrod;
+                }
+            }
             &:last-child{
                 font-size: 10px;
                 color: #4F5765;
@@ -75,8 +85,24 @@ html, body{
             background-clip: text;
             color: transparent;
         }
-        .backColor{
 
+        .texteCenter{
+            background: #1a1f2bb7;
+            margin: 200px;
+            height: 80%;
+            width: 100%;
+            color: white;
+            border-radius: 50px;
+            box-shadow:  11px 11px 22px #4F5765,
+             -11px -11px 22px #4F5765;
+            h1{
+                margin-left: 30px;
+            }
+            p{
+                line-height: 2em;
+                margin: 30px;
+                opacity: 0.8;
+            }
         }
     }
     .sectionRight{
