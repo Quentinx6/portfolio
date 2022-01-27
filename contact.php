@@ -11,7 +11,7 @@
 <body>
     <main class="mainCorps">
     <div class="sectionLeft">
-        <img src="./img/logo.svg" alt="">
+    <a href="./index.html"><img src="./img/logo.svg" alt=""></a>
         <p>Parcours de vie</p>
         <p>© Lecompte Quentin 2021</p>
     </div>

@@ -116,3 +116,74 @@ html, body{
         }
     }
 }
+.menu{
+    position: absolute;
+    width: 10%;
+    right: 10%;
+    top: 0;
+    background-color: #131c30;
+    animation: fadeIn 0.8s;
+    border-radius: 0 0 20px 20px;
+    ul{
+        text-decoration: none;
+        list-style: none;
+        line-height: 4em;
+        padding: 10px;
+        text-align: center;
+        a{
+            text-decoration: none;
+        }
+        li{
+            color: white;
+            &:hover{
+                background-color: #1d2b44;
+                cursor: pointer;
+                color: darkgoldenrod;
+            }
+            &:first-child{
+                animation: fadeIn 0.5s;
+            }
+            &:nth-child(2){
+                animation: fadeIn 0.8s;
+            }
+            &:nth-child(3){
+                animation: fadeIn 1s;
+            }
+            &:last-child{
+                animation: fadeIn 1.3s;
+            }
+        }
+    }
+}
+.none{
+    animation: fadeIn 0.6s;
+    display: none;
+}
+.angledroit{
+    transform: rotate(90deg);
+    transition: 0.6s;
+    animation: fadeIn 0.6s;
+    width: 40px!important;
+    height: 40px!important;
+    margin-top: 10px;
+}
+.transition{
+    transition: 0.6s;
+    transform: rotate(0deg);
+    animation: fadeIn 0.6s;
+}
+.disparition{
+    animation: disparition 1s;
+}
+@keyframes disparition{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -70%;
+    }
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
