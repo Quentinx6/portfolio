@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +11,89 @@
     <script src="./app.js" defer></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
+
 <body>
     <main class="mainCorps">
         <div class="sectionLeft">
             <a href="./index.html"><img src="./img/logo.svg" alt=""></a>
-            <p class="proute"><a class="parcours" href="./pro.html">Parcours professionnel</a></p>
+            <p class="parcourPro"><a class="parcours" href="./pro.html">Parcours professionnel</a></p>
             <p>© Lecompte Quentin 2021</p>
         </div>
         <div class="sectionCenter">
-
+            <div class="sectionPro">
+                <!-- Dans chaque div un projet  -->
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="./img/frantz.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Frantz Pizza</h2>
+                        <p>Le site Frantz Pizza est un site vitrine pour la présentation de ces produits et de
+                            l’emplacement de sa présence. Ce site fût réalisé via Wordpress.</p>
+                        <p><a target="_blank" href="">Le site de Frantz Pizza.</a></p>
+                    </div>
+                </div>
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="./img/mairie.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Mairie d'Equihen-Plage</h2>
+                        <p>Le site de la Mairie d'Equihe-Plage est un site réalisé via le framework Symfony, Scss, Twig,
+                            JS, HTML. Le site sera bientôt disponible. Il a pour but d'informer la population de
+                            certaine activité ou autre mais également à but touristique, présentation du camping, de
+                            différent restaurant et même la plage d'Equihen-Plage.
+                        </p>
+                        <p>Bientôt disponible.</p>
+                    </div>
+                </div>
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="./img/qandboat.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Q&Boat</h2>
+                        <p>Le nom <strong>Q&Boat</strong> vient de notre association <strong>Q&DInformatique</strong>
+                            avec mon colaboratoire. Mais qu'est que Q&Boat ? C'est jeu tour par tour ou le but et de
+                            détruire le bateau adversaire. L'équipage est la vie du bateau donc si tout l'équipage ne
+                            posséde plus de point de vie la partie se termine et l'équipage qui posséde au moins un
+                            point de vie gagne la partie. Ce jeu a été créé via les langages HTML, CSS et JS.</p>
+                        <p><a href="">Le site Q&Boat.</a></p>
+                    </div>
+                </div>
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="./img/equimeteo.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Equimeteo</h2>
+                        <p>Ce petit site web est un site utilisant une api via JS qui permet d'avoir la météo. L'api en question est OpenWeather elle est gratuite est facilement utilisable.</p>
+                        <p><a target="_blank" href="https://equimeteo.quentinlec.dediweb.ch/">Le site Equimeteo.</a></p>
+                    </div>
+                </div>
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="./img/flip.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Flip card</h2>
+                        <p>Réalisation d'un moyen de paiement avec HTML, CSS et JS pour l'animation. Elle fû réalisé en quelque ligne pour simplifier la réutilisation dans des plus gros projets.</p>
+                        <p><a target="_blank" href="https://quentin-credit-card.netlify.app/">Le site de Flip Card</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="containerPro">
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="description">
+                        <h2>Flip card</h2>
+                        <p>Réalisation d'un moyen de paiement avec HTML, CSS et JS pour l'animation.</p>
+                        <p><a target="_blank" href="https://quentin-credit-card.netlify.app/">Le site de Flip Card</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="sectionRight">
             <img class="menuHamburger" src="./img/menu.png" alt="">
@@ -26,20 +101,30 @@
                 <p>Contact</p>
             </a>
             <div class="logoContact">
-                <a target="_blank" href="https://github.com/Quentinx6"><img class="github" src="./img/github.svg" alt="Logo GitHub"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/quentin-lecompte-645aa3209/"><img class="linkedin" src="./img/linkedin.svg" alt="Logo Linkedin"></a>
-                <a target="_blank" href="https://twitter.com/iTs_QuentYt"><img class="twitter" src="./img/twitter.svg" alt="Logo Twitter"></a>
+                <a target="_blank" href="https://github.com/Quentinx6"><img class="github" src="./img/github.svg"
+                        alt="Logo GitHub"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/quentin-lecompte-645aa3209/"><img class="linkedin"
+                        src="./img/linkedin.svg" alt="Logo Linkedin"></a>
+                <a target="_blank" href="https://twitter.com/iTs_QuentYt"><img class="twitter" src="./img/twitter.svg"
+                        alt="Logo Twitter"></a>
             </div>
         </div>
         <div class="menu none">
             <ul>
-                <a href="./index.html"><li>Accueil</li></a>
+                <a href="./index.html">
+                    <li>Accueil</li>
+                </a>
                 <li>Projet Web</li>
-                <a href="./parcours.html"><li>Parcours de vie</li></a>
+                <a href="./parcours.html">
+                    <li>Parcours de vie</li>
+                </a>
                 <li>Vie professionnel</li>
-                <a href="./contact.php"><li>Contact</li></a>
+                <a href="./contact.php">
+                    <li>Contact</li>
+                </a>
             </ul>
         </div>
     </main>
 </body>
+
 </html>
