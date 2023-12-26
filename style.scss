@@ -257,3 +257,64 @@ html, body{
     0% {opacity:0;}
     100% {opacity:1;}
   }
+
+// MOBILE 
+ 
+@media screen and (max-width: 500px) and (min-width:351px){
+    .mainCorps {
+        flex-direction: column;
+        .sectionLeft, .sectionCenter, .sectionRight {
+            flex-direction: row;
+            width: 100%;
+        }
+        .sectionLeft, .sectionRight {
+            height: 15%;
+        }
+        
+
+        .sectionLeft {
+            p {
+                transform: none;
+                display: none;
+            }
+            .parcourPro {
+                display: block;
+                margin-right: 10px;
+            }
+        }
+
+        .sectionRight {
+            .menuHamburger {
+                display: none;
+            }
+            .logoContact {
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-around;
+            }
+            p {
+                display: none;
+            }
+        }
+      
+        .sectionCenter {
+            .cercleFirstBordure {
+                height: 80%;
+                width: 100%;
+                margin: 0;
+                .cercleRouge {
+                    .texteDev {
+                        font-size: 25px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .containerPro {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+
+}

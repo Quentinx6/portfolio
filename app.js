@@ -2,11 +2,11 @@ const txtAnim = document.querySelector("h1");
 
 new Typewriter(txtAnim, {
     loop : true,
-    deleteSpeed: 20
+    deleteSpeed: 30
 })
 .typeString("Enchanté Lecompte Quentin, ")
 .pauseFor(500)
-.typeString("<br><strong>Développeur Web et Web mobile</strong> !")
+.typeString("<br><strong>Développeur Web</strong> !")
 .pauseFor(1000)
 .deleteAll()
 .typeString('<strong>Mes langages sont <em style="color: red">HTML</em> !')
